@@ -1,0 +1,32 @@
+<!-- add_book.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bookstore</title>
+</head>
+<body>
+    <h2>Add New Book</h2>
+    <form action="insert.php" method="post">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" required>
+        
+        <label for="published_year">Published Year:</label>
+        <input type="number" id="published_year" name="published_year" required>
+        
+        <button type="submit">Add Book</button>
+    </form>
+
+    <?php include 'display_books.php'; ?>
+
+    <h2>Display All Books</h2>
+    <form action="display_books.php" method="get">
+        <button type="submit">Display Books</button>
+    </form>
+</body>
+</html>
