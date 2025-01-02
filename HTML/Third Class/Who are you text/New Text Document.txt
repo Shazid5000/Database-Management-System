@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Get Identity</title>
+</head>
+<body>
+<p><b>Who are you?</b></p>
+<form method="post" action="">
+<p>Name:
+<input type="text" name="textfield">
+</p>
+<p>Gender:
+<input type="radio" name="gender" value="m">Male
+<input type="radio" name="gender" value="f">Female</p>
+</form>
+</body>
+</html>

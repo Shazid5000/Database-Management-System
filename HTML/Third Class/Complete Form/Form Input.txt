@@ -1,0 +1,56 @@
+<form action="/submit" method="post">
+  <fieldset>
+    <legend>Form Elements:</legend>
+    <p>
+      <label for="button">Button:</label>
+      <button type="button" name="button" id="button">Button</button>
+    </p>
+    <p>
+      <label for="checkbox">Checkbox:</label>
+      <input type="checkbox" name="checkbox" id="checkbox">
+    </p>
+    <p>
+      <label for="file">FileUpload:</label>
+      <input type="file" name="file" id="file">
+    </p>
+    <p>
+      <label for="hidden">Hidden:</label>
+      <input type="hidden" name="hidden" id="hidden">
+    </p>
+    <p>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password">
+    </p>
+    <p>
+      <label for="reset">Reset object Reset:</label>
+      <input type="reset" name="reset" id="reset">
+    </p>
+    <p>
+      <label for="select">Select object:</label>
+      <select name="select" id="select">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+    </p>
+    <p>
+      <label for="radio">Radio:</label>
+      <input type="radio" name="radio" id="radio1" value="option1">
+      <label for="radio2">Option 1</label>
+      <input type="radio" name="radio" id="radio2" value="option2">
+      <label for="radio3">Option 2</label>
+    </p>
+    <p>
+      <label for="submit">Submit object:</label>
+      <input type="submit" name="submit" id="submit" value="Submit">
+    </p>
+    <p>
+      <label for="text">Text:</label>
+      <input type="text" name="text" id="text">
+    </p>
+    <p>
+      <label for="textarea">Textarea:</label>
+      <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
+    </p>
+  </fieldset>
+</form>
